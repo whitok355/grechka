@@ -1,0 +1,70 @@
+$color-h3: #727272;
+$color-h1: #393939;
+$colorSupport: #727272;
+$color-p: white;
+$color-glow: #F36A1D;
+$color-normal-el: #999999;
+
+@font-face {
+    font-family: 'NoirProBoldItalic';
+    src: url('../font/NoirProBoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'NoirProLight';
+    src: url('../font/NoirProLight.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1{
+    font-family: 'NoirProBoldItalic', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+}
+.index-0{
+    z-index: 0;
+}
+.index-1{
+    z-index: 1;
+}
+.index-2{
+    z-index: 2;
+}
+.index-3{
+    z-index: 3;
+}
+.index-11{
+    z-index: 11;
+}
+@media(min-width: 860px){
+    h1{
+        font-size: 76px;
+        line-height: 77px;
+    }
+    h3{ 
+        font-size: 26px;
+        line-height: 25px;
+        letter-spacing: -0.05em;
+    }
+}
+
+@media(min-width: 1920px){
+    h1{
+        font-size: 132px;
+        line-height: 155px;
+    }
+    h3{ 
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.05em;
+    }
+}
